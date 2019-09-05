@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Stopwatch.xcodeproj">
+      location = "group:/Users/max/Documents/School/67442/LAB/Lab1/Stopwatch/asdad.jpg">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

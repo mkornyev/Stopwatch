@@ -13,6 +13,9 @@
 		507D8FA023196DC400FA02F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 507D8F9F23196DC400FA02F4 /* Assets.xcassets */; };
 		507D8FA323196DC400FA02F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507D8FA123196DC400FA02F4 /* LaunchScreen.storyboard */; };
 		507D8FAE23196DC400FA02F4 /* StopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507D8FAD23196DC400FA02F4 /* StopwatchTests.swift */; };
+		507D8FB9231976C300FA02F4 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507D8FB8231976C300FA02F4 /* Stopwatch.swift */; };
+		507D8FBD23198ACB00FA02F4 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 507D8FBC23198ACB00FA02F4 /* background.jpg */; };
+		507D8FBF2319CB5600FA02F4 /* UIButtonShake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507D8FBE2319CB5600FA02F4 /* UIButtonShake.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		507D8FA923196DC400FA02F4 /* StopwatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		507D8FAD23196DC400FA02F4 /* StopwatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchTests.swift; sourceTree = "<group>"; };
 		507D8FAF23196DC400FA02F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		507D8FB8231976C300FA02F4 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		507D8FBC23198ACB00FA02F4 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		507D8FBE2319CB5600FA02F4 /* UIButtonShake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonShake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +83,15 @@
 		507D8F9723196DC000FA02F4 /* Stopwatch */ = {
 			isa = PBXGroup;
 			children = (
+				507D8FBC23198ACB00FA02F4 /* background.jpg */,
 				507D8F9823196DC000FA02F4 /* AppDelegate.swift */,
 				507D8F9A23196DC000FA02F4 /* ViewController.swift */,
 				507D8F9C23196DC000FA02F4 /* Main.storyboard */,
 				507D8F9F23196DC400FA02F4 /* Assets.xcassets */,
 				507D8FA123196DC400FA02F4 /* LaunchScreen.storyboard */,
 				507D8FA423196DC400FA02F4 /* Info.plist */,
+				507D8FB8231976C300FA02F4 /* Stopwatch.swift */,
+				507D8FBE2319CB5600FA02F4 /* UIButtonShake.swift */,
 			);
 			path = Stopwatch;
 			sourceTree = "<group>";
@@ -178,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				507D8FA323196DC400FA02F4 /* LaunchScreen.storyboard in Resources */,
+				507D8FBD23198ACB00FA02F4 /* background.jpg in Resources */,
 				507D8FA023196DC400FA02F4 /* Assets.xcassets in Resources */,
 				507D8F9E23196DC000FA02F4 /* Main.storyboard in Resources */,
 			);
@@ -197,7 +207,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507D8FBF2319CB5600FA02F4 /* UIButtonShake.swift in Sources */,
 				507D8F9B23196DC000FA02F4 /* ViewController.swift in Sources */,
+				507D8FB9231976C300FA02F4 /* Stopwatch.swift in Sources */,
 				507D8F9923196DC000FA02F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
